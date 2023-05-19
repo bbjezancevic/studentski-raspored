@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D3D3D3"
+    android:layout_margin="7dp"
+    android:id="@+id/task_layout">
+
+    <ImageView
+        android:id="@+id/iv_task_img"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Naslov"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_task_description"
+        app:layout_constraintLeft_toRightOf="@id/iv_task_img" />
+
+    <TextView
+        android:id="@+id/tv_task_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Description"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_task_img"
+        app:layout_constraintLeft_toRightOf="@id/iv_task_img"
+        app:layout_constraintTop_toTopOf="@id/iv_task_img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

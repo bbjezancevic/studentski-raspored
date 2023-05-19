@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94324340474",
+    "project_id": "scheduler-77a6b",
+    "storage_bucket": "scheduler-77a6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94324340474:android:b39129b244dd3010e73b43",
+        "android_client_info": {
+          "package_name": "com.example.studentski_raspored"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94324340474-rt3gs1dmtpq9ro8j1rh93saksprnbl45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaazfSEd3VhwoaWwInalvdPHND2U9kwL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94324340474-rt3gs1dmtpq9ro8j1rh93saksprnbl45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
